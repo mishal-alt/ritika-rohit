@@ -1046,3 +1046,7 @@ footer#footer img { display: block; }
 @media(min-width:760px){
   .events-grid{ grid-template-columns: repeat(2, 1fr); }
 }
+
+/* Location button on the event cards */
+.loc-btn{ margin-top:22px; padding:11px 24px; font-size:10px; letter-spacing:.18em; white-space:nowrap; }
+.loc-btn svg{ width:14px; height:14px; position:relative; z-index:1; }
